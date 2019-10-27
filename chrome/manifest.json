@@ -8,10 +8,10 @@
 		"scripts": ["background.js"],
 		"persistent": false
 	},
-"page_action": {
-	"default_popup":"popup.html",
-	"scripts": ["popup.js"],
-	"default_icon": {
+	"page_action": {
+		"default_popup":"popup.html",
+		"scripts": ["popup.js"],
+		"default_icon": {
 			"16": "images/16icon.png",
 			"32": "images/32icon.png"
 		}
@@ -19,6 +19,5 @@
 	"icons": {
 		"16": "images/16icon.png",
 		"32": "images/32icon.png"
-		},
-"manifest_version": 2
+	}
 }
