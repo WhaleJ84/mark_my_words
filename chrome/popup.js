@@ -5,6 +5,7 @@
 //}
 
 function main(){
+	console.log("Test");
 	document.addEventListener('DOMContentLoaded', function(){
 		var checkPageButton = document.getElementById("actBtn");
 		checkPageButton.addEventListener('click', function(){
