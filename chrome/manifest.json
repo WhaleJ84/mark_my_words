@@ -1,17 +1,16 @@
 {
-	"manifest_version" :2,
-	"name": "Mark_My_Words",
+	"name": "Mark My Words",
 	"version": "1.0",
-	"description": "Mark_My_Words is a extension that allows the user to scan text on a website and highlight words that would be considered unprofessional.",
+	"description": "Mark My Words is a extension that allows the user to scan text on a website and highlight words that would be considered unprofessional.",
 	"permissions": ["storage", "declarativeContent", "activeTab"],
 	"background": {
 		"scripts": ["background.js"],
 		"persistent": false
 	},
-	"page_action": {
-		"default_popup":"popup.html",
-		"scripts": ["popup.js"],
-		"default_icon": {
+"page_action": {
+	"default_popup":"popup.html",
+	"scripts": ["popup.js"],
+	"default_icon": {
 			"16": "images/16icon.png",
 			"32": "images/32icon.png"
 		}
@@ -19,5 +18,6 @@
 	"icons": {
 		"16": "images/16icon.png",
 		"32": "images/32icon.png"
-	}
+		},
+"manifest_version": 2
 }
