@@ -1,8 +1,20 @@
+h1 {
+	margin: auto;
+	text-align: center;
+}
+
+h2 {
+	margin: auto;
+	text-align: center;
+}
+
 button {
 	font-family: monospace;
 	font-size: 1.5em;
 	height: 75px;
 	width: 250px;
+	display: block;
+	margin: auto;
 	background: darkred;
 	border-color: black;
 	border-width: thick;

@@ -1,0 +1,41 @@
+{
+	"filters":{
+		"abbreviations":{
+			"rn":"right now",
+			"asap":"as soon as possible",
+			"np":"no problem",
+			"idk":"i don't know",
+			"imo":"in my opinion",
+			"ikr":"i know, right?",
+			"diy":"do it yourself",
+			"aka":"also known as",
+			"fyi":"for your information",
+			"btw":"by the way",
+			"wtf":"what the frick",
+			"wth":"what the heck",
+			"idc":"i don't care",
+			"jk":"just kidding",
+			"lmk":"let me know",
+			"nsfw":"not safe for work",
+			"owm":"on my way",
+			"tmi":"too much information",
+			"u":"you",
+			"ur":"your",
+			"wbu":"what about you",
+			"pls":"please",
+			"plz":"please",
+			"innit":"isn't it"
+		},
+		"professional":{
+			"hr":"Human Resources",
+			"er":"External Relations"
+		},
+		"negatives":{
+			"idiot":"",
+			"moron":"",
+			"rubbish":"not as good as expected",
+			"liar":"",
+			"terrible":"bad"
+		}
+	}
+}

@@ -1,6 +1,12 @@
-function actFn(){
-	alert("please work");
+function clickHandler(){
+	console.log("clickHandler");
 }
-document.addEventListener('DOMContentReady', function () {
-	  document.getElementById("actBtn").addEventListener('click', actFn);
+
+function main(){
+	console.log("main");
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+	document.querySelector('button').addEventListener('click', clickHandler);
+	main();
 });
